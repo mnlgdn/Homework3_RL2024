@@ -1,5 +1,3 @@
-# Homework3_RL2024
-
 - Build the new package:
 $ colcon build
 
@@ -37,7 +35,7 @@ $ ros2 run ros2_kdl_package ros2_kdl_vision_control --ros-args -p task:=position
 - Executes the look at point task:
 $ ros2 run ros2_kdl_package ros2_kdl_vision_control --ros-args -p task:=look-at-point
 
-N.B.: Both the tasks must be excecuted with the velocity interface
+N.B.: Both the tasks must be excecuted with the velocity interface, in case there is an error connection, try to relaunch the nodes
 
 - Start ros2_kdl_vision_dynamic, in order to observe the trajectories in the Cartesian Space, (with effort interface):
 
